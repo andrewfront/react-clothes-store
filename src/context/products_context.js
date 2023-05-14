@@ -23,7 +23,6 @@ const initialState = {
   single_product_error: false,
   single_product: {},
 }
-
 const ProductsContext = React.createContext()
 
 export const ProductsProvider = ({ children }) => {
