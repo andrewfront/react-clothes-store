@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import { PageHero } from '../components'
-import aboutImg from '../assets/hero-bcg.jpg'
+// import aboutImg from '../assets/hero-bcg.jpg'
 const AboutPage = () => {
   return (
     <main>
     <PageHero title="about"></PageHero>
     <Wrapper className='page section section-center'>
-  <img src={aboutImg} alt="about-img" />
+  <img src="https://ae01.alicdn.com/kf/HTB1FFwaOVXXXXctXFXXq6xXFXXXq/Women-Office-Suit-Jackets-Coat-Slim-Short-Design-Long-Sleeve-Ladies-Blazer-Girls-Work-Wear-Jacket.jpg_640x640.jpg" alt="about-img" />
   <article>
     <div className="title">
       <h2>our story</h2>

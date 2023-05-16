@@ -12,8 +12,8 @@ const Hero = () => {
       <Link to='/products' className="btn hero-btn">shop now</Link>
     </article>
     <article className='img-container'>
-      {/* <img src={heroBcg} alt="hero" className='main-img'/>
-      <img src={heroBcg2} alt="hero" className='accent-img'/> */}
+      <img src="https://ae01.alicdn.com/kf/HTB1FFwaOVXXXXctXFXXq6xXFXXXq/Women-Office-Suit-Jackets-Coat-Slim-Short-Design-Long-Sleeve-Ladies-Blazer-Girls-Work-Wear-Jacket.jpg_640x640.jpg" alt="hero" className='main-img'/>
+      <img src="https://media.istockphoto.com/id/675054750/photo/snowball-fight.jpg?s=612x612&w=0&k=20&c=X4kby7wGK1ONKThHoibGpu17nPeIydIzUZiiOB8Ihq8=" alt="hero" className='accent-img'/>
     </article>
   </Wrapper>
 }
