@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import heroBcg from '../assets/hero-bcg.jpg'
-import heroBcg2 from '../assets/hero-bcg-2.jpg'
+// import heroBcg from '../assets/hero-bcg.jpg'
+// import heroBcg2 from '../assets/hero-bcg-2.jpg'
 
 const Hero = () => {
   return <Wrapper className='section-center'>
@@ -12,8 +12,8 @@ const Hero = () => {
       <Link to='/products' className="btn hero-btn">shop now</Link>
     </article>
     <article className='img-container'>
-      <img src={heroBcg} alt="hero" className='main-img'/>
-      <img src={heroBcg2} alt="hero" className='accent-img'/>
+      {/* <img src={heroBcg} alt="hero" className='main-img'/>
+      <img src={heroBcg2} alt="hero" className='accent-img'/> */}
     </article>
   </Wrapper>
 }
