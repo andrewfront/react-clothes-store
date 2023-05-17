@@ -1,5 +1,5 @@
 {
-  "name": "comfy",
+  "name": "clothes-store",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "netlify dev",
-    "production" : "react-scripts build"
+    "production": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
